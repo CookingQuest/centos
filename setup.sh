@@ -1,4 +1,5 @@
 yum groupinstall -y "Development Tools"
+yum remove -y git
 yum install -y gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel curl-devel
 wget https://github.com/git/git/archive/v2.12.2.tar.gz -O git.tar.gz
 tar -zxf git.tar.gz
